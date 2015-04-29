@@ -1,0 +1,22 @@
+#!/usr/bin/env python
+#-*- coding: utf-8 -*-
+##############################################################################
+#
+# simple_math
+# --------------------
+# it really is simple math.
+#
+# @author Shaden, 0x899319D4251502BA
+# @date 28 April 2015
+# @version 0.0.1
+##############################################################################
+
+def limit(upper_end):
+    while upper_end < 70:
+        upper_end = upper_end + 1
+        lower_end = (upper_end / 2) + 7
+        print upper_end, "go", lower_end
+
+print limit(40)
+    
+
